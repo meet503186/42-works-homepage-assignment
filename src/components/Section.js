@@ -26,7 +26,7 @@ export default function Section() {
         </div>
 
         {/* search, logos and text */}
-        <div className="w-[55%] py-4">
+        <div className="w-[52%] py-4">
           {/* heading */}
           <h1 className={`text-[#1b1b1b] font-bold text-[60px]`}>
             Law For Me helps you{" "}
