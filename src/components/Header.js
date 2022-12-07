@@ -13,13 +13,14 @@ export default function Header() {
   // styles
   const socialMediaIcons = "h-full w-6 ml-4 cursor-pointer";
   const contactLinks = "ml-2 cursor-pointer";
+  const dropdown =
+    "border-none text-base outline-none bg-transparent cursor-pointer p-2";
+  const dropdownOption = "text-base text-center";
 
   return (
     <div className="w-full relative z-[11]">
       {/* offers and social media section */}
-      <div
-        className={`py-2 w-full flex items-center justify-center`}
-      >
+      <div className={`py-2 w-full flex items-center justify-center`}>
         <div className="max-w-6xl bg-transparent w-full flex items-center justify-between">
           {/* offer text */}
 
@@ -64,19 +65,23 @@ export default function Header() {
 
       {/* logo and links section */}
       <div
-        className={`py-4 w-full flex items-center justify-center bg-[#FFFEFF] shadow-md`}
+        className={`py-3 w-full flex items-center justify-center bg-[#FFFEFF] shadow-md`}
       >
         <div className="max-w-6xl w-full flex items-center justify-between">
           {/* Services */}
           <div className={`text-[#1b1b1b] flex items-center`}>
             <div className="mr-2">
-              <select className="border-none text-base outline-none bg-transparent">
-                <option defaultChecked>Legal Documents</option>
+              <select className={`${dropdown}`}>
+                <option className={`${dropdownOption}`} defaultChecked>
+                  Legal Documents
+                </option>
               </select>
             </div>
             <div className="mr-2">
-              <select className="border-none text-base outline-none bg-transparent">
-                <option defaultChecked>Legal Documents</option>
+              <select className={`${dropdown}`}>
+                <option className={`${dropdownOption}`} defaultChecked>
+                  Legal Documents
+                </option>
               </select>
             </div>
             <div className="mr-2">Subscription Plans</div>

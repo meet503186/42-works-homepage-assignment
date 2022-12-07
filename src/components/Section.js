@@ -11,22 +11,22 @@ export default function Section() {
     <div className="flex items-center justify-center w-full bg-gradient-to-b from-[#5798C01A] to-[#ffffff] relative">
       {/* circle image */}
       <img
-        className="absolute -left-[600px] -top-[80px] w-full h-full z-[0]"
+        className="absolute -left-[616px] -top-[80px] w-full h-full z-[0]"
         src={Circle}
         alt="circle"
       />
       <div className="relative top-0 left-0 max-w-6xl py-20 w-full h-full flex items-center justify-between">
         {/* Image */}
-        <div className="h-full">
+        <div className="w-[450px] h-full">
           <img
-            className={`z-[11] h-fit w-[450px] border-4 border-[#FFFFFF] rounded-2xl`}
+            className={`z-[11] h-fit w-full border-4 border-[#FFFFFF] rounded-2xl`}
             src={ManImage}
             alt="man"
           />
         </div>
 
         {/* search, logos and text */}
-        <div className="w-1/2 py-4">
+        <div className="w-[55%] py-4">
           {/* heading */}
           <h1 className={`text-[#1b1b1b] font-bold text-[60px]`}>
             Law For Me helps you{" "}
@@ -54,7 +54,7 @@ export default function Section() {
               type={"button"}
               className={`ml-6 p-[15px] text-[#FFFFFF] flex items-center rounded-lg bg-gradient-to-b from-[#FF17B3] to-[#DA189B]`}
             >
-              <img src={SearchIcon} alt="search" className="h-full w-9" />
+              <img src={SearchIcon} alt="search" className="h-full w-7" />
             </button>
           </div>
 
