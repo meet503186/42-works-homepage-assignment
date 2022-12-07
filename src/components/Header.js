@@ -15,7 +15,7 @@ export default function Header() {
   const contactLinks = "ml-2 cursor-pointer";
 
   return (
-    <div className="w-full">
+    <div className="w-full relative z-[11]">
       {/* offers and social media section */}
       <div
         className={`py-2 w-full flex items-center justify-center`}

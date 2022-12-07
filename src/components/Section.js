@@ -11,7 +11,7 @@ export default function Section() {
     <div className="flex items-center justify-center w-full bg-gradient-to-b from-[#5798C01A] to-[#ffffff] relative">
       {/* circle image */}
       <img
-        className="absolute left-0 top-0 w-full h-full"
+        className="absolute -left-[600px] -top-[80px] w-full h-full z-[0]"
         src={Circle}
         alt="circle"
       />
